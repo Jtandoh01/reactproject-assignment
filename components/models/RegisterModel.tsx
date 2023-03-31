@@ -83,6 +83,7 @@ const RegisterModel = () => {
 			<Input
 				disabled= {isLoading}
 				placeholder="Email"
+				type = 'email'
 				onChange={(e)=> setEmail (e.target.value)}
 				value= {email}
 
